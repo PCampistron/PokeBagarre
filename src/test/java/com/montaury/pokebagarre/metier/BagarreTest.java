@@ -42,18 +42,13 @@ class BagarreTest {
     @Test
     void tester_recuperation_nom_bagarre()
     {
-        /*
-
         // GIVEN
         var futurVainqueur = new Pokemon("Pikachu", null, null);
-        Pokemon pokemon;
 
         // WHEN
         Mockito.when(pokeBuildApi.recupererParNom("pikachu")).thenReturn(CompletableFuture.completedFuture(new Pokemon("pikachu", "url1", new Stats(1, 2))));
 
         // THEN
-        assertThat(futurVainqueur).satisfies(pokemon->{assertThat(pokemon.getNom()).isEqualTo("Pikachu");}) ;
-
-         */
+        assertThat(futurVainqueur).satisfies(pokemon -> { assertThat(pokemon.getNom()).isEqualTo("Pikachu");}) ;
     }
 }
